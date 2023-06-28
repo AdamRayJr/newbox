@@ -49,4 +49,5 @@ done
 for file_name in "${files[@]}"; do
     file_path="$base_directory/$file_name"
     create_file "$file_path"
+echo "suckit"
 done
